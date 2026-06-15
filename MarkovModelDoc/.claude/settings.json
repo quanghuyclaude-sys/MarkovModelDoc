@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\huydl\\\\Projects\\\\Claude\\\\MarkovModelDoc\\\\MarkovModelDoc\\\\resources\\\\scripts\\\\markov-hedge-fund-method\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\huydl\\\\Projects\\\\Claude\\\\MarkovModelDoc\\\\MarkovModelDoc\\\\resources\\\\scripts\\\\claude-tradingview-mcp-trading\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\huydl\\\\Projects\\\\Claude\\\\MarkovModelDoc\\\\MarkovModelDoc\\\\resources\\\\scripts\\\\claude-code-stocks-futures\")",
+      "PowerShell(New-Item -ItemType Directory -Force \"c:\\\\Users\\\\huydl\\\\Projects\\\\Claude\\\\MarkovModelDoc\\\\MarkovModelDoc\\\\resources\\\\scripts\\\\yt-strategy-agent\")",
+      "PowerShell(Get-ChildItem -Recurse \"c:\\\\Users\\\\huydl\\\\Projects\\\\Claude\\\\MarkovModelDoc\\\\MarkovModelDoc\\\\resources\\\\scripts\" | Where-Object { -not $_.PSIsContainer } | Select-Object FullName | ForEach-Object { $_.FullName.Replace\\(\"c:\\\\Users\\\\huydl\\\\Projects\\\\Claude\\\\MarkovModelDoc\\\\MarkovModelDoc\\\\resources\\\\scripts\\\\\", \"\"\\) })",
+      "WebSearch",
+      "PowerShell(Start-Process \"https://x.com/RohOnChain\")",
+      "PowerShell(Start-Process \"https://x.com/RohOnChain/status/2052798873371037833\")",
+      "PowerShell(Start-Process \"https://x.com/RohOnChain/status/2066220156804837408\")",
+      "PowerShell(Start-Process \"https://x.com/RohOnChain/status/2019131428378931408\")",
+      "PowerShell(Start-Process \"https://x.com/RohOnChain/status/2049153122027900948\")",
+      "WebFetch(domain:x.com)",
+      "PowerShell(Start-Process \"https://x.com/RohOnChain/status/2052043443766194272\")"
+    ]
+  }
+}

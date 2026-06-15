@@ -1,0 +1,31 @@
+{
+  "strategy": "VWAP + RSI(3) + EMA(8) Scalping",
+  "asset": "BTCUSDT",
+  "timeframe": "1m",
+  "description": "EMA(8) for trend direction, VWAP for session bias, RSI(3) for entry timing. Based on van de Poppe + Tone Vays BTC methodology. All three conditions must align before any entry.",
+  "indicators": {
+    "ema_period": 8,
+    "rsi_period": 3,
+    "vwap_reset": "midnight_utc"
+  },
+  "long_conditions": {
+    "price_above_vwap": true,
+    "price_above_ema": true,
+    "rsi_below": 30
+  },
+  "short_conditions": {
+    "price_below_vwap": true,
+    "price_below_ema": true,
+    "rsi_above": 70
+  },
+  "exits": {
+    "rsi_cross_50": true,
+    "touch_vwap": true,
+    "touch_ema": true
+  },
+  "risk": {
+    "stop_pct": 0.003,
+    "max_vwap_distance_pct": 0.015,
+    "max_portfolio_risk_pct": 0.01
+  }
+}

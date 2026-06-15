@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "0773a906dcb7fe14",
+    "type": "split",
+    "children": [
+      {
+        "id": "038fb27e2cedfee4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6a9f0df0d9d9c1de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Neural Networks.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Neural Networks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0c44f1daa72c4436",
+    "type": "split",
+    "children": [
+      {
+        "id": "e77b71e33d7e0849",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f872b2068d5a9587",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "b696b97d6cd57ec2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "4123a63781d52b63",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "49dcf045d45971b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "4fd705be0ffcca17",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fe28c88ed06035cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Neural Networks.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Neural Networks"
+            }
+          },
+          {
+            "id": "6fac67d9edad0ea0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Neural Networks.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Neural Networks"
+            }
+          },
+          {
+            "id": "3dd0118fc6e54854",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "eca01a8abeaa6344",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2236364a91f5701e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Neural Networks.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Neural Networks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f872b2068d5a9587",
+  "lastOpenFiles": [
+    "resources/scripts/claude-code-stocks-futures/module-08-multi-market.md",
+    "resources/scripts/claude-code-stocks-futures/module-07-deployment.md",
+    "resources/scripts/claude-code-stocks-futures/module-06-going-live.md",
+    "resources/scripts/claude-code-stocks-futures/module-06-going-live.md.tmp.21176.d2bb30c25194",
+    "resources/scripts/claude-code-stocks-futures/module-05-execution.md",
+    "resources/scripts/claude-code-stocks-futures/module-04-backtesting.md",
+    "resources/scripts/claude-code-stocks-futures/module-03-strategy.md",
+    "resources/scripts/claude-code-stocks-futures/module-02-market-data.md",
+    "resources/scripts/claude-code-stocks-futures/module-01-setup.md",
+    "resources/scripts/yt-strategy-agent/PROMPT-onboarding.md",
+    "resources/scripts/yt-strategy-agent/notify.py",
+    "resources/scripts/yt-strategy-agent/notify.py.tmp.21176.9ee022145fb0",
+    "resources/scripts/yt-strategy-agent/transcript.py",
+    "resources/scripts/yt-strategy-agent/transcript.py.tmp.21176.78cae4bb793b",
+    "resources/scripts/yt-strategy-agent/weighting.py",
+    "resources/scripts/yt-strategy-agent/weighting.py.tmp.21176.7304e6f240e7",
+    "resources/scripts/yt-strategy-agent/change_detect.py",
+    "resources/scripts/yt-strategy-agent/ingest.py",
+    "resources/scripts/yt-strategy-agent/watcher.py",
+    "resources/scripts/claude-tradingview-mcp-trading/prompts-02-one-shot-trade.md",
+    "HiddenMarkovTrading.md",
+    "Neural Networks.md",
+    "resources/scripts/claude-tradingview-mcp-trading/prompts-01-extract-strategy.md",
+    "SignalGeneration.md",
+    "resources/scripts/markov-hedge-fund-method/markov-hedge-fund-method-install.md",
+    "resources/Skills-MarkovRegime.md",
+    "resources/Skills-Engineering.md",
+    "resources/Skills-Autoresearch.md",
+    "resources/Skills-PineScript.md",
+    "resources/Skills-CapitalAllocator.md",
+    "resources/Skills-StrategyAudit.md",
+    "resources/Skills-TradeJournal.md",
+    "resources/Skills-RiskManager.md",
+    "resources/Skills-Backtest.md",
+    "Skills-MarkovRegime.md",
+    "Skills-Engineering.md"
+  ]
+}
